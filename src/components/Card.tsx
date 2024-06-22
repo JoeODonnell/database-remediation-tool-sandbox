@@ -41,7 +41,7 @@ function Card() {
     
     return (
         <div className= "card">
-            <h2 className="title">Search results</h2> 
+            <h2 className="title">Search</h2> 
 
             {/* // This down here is how we're taking the collected data above ^ for applications from firebase and mapping it to the front-end. */}
             {applications && applications.length ? (
